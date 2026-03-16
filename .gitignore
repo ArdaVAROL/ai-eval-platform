@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+frontend/.next/
+frontend/node_modules/
+backend/ai_eval_platform.db

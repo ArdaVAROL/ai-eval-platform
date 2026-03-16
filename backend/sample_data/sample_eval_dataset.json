@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "name": "Customer Support FAQ",
+    "description": "Sample support prompts for the MVP demo."
+  },
+  "test_cases": [
+    {
+      "input_text": "How can I reset my password?",
+      "expected_output": "Explain the password reset flow clearly and briefly.",
+      "evaluation_type": "pass_fail"
+    },
+    {
+      "input_text": "What is your refund policy for annual plans?",
+      "expected_output": "Describe refund rules and mention support contact if needed.",
+      "evaluation_type": "pass_fail"
+    },
+    {
+      "input_text": "My order has not arrived yet. What should I do?",
+      "expected_output": "Ask for order details, shipping window, and next steps.",
+      "evaluation_type": "pass_fail"
+    }
+  ],
+  "prompt_version": {
+    "name": "Support Assistant",
+    "version": "v1",
+    "prompt_text": "You are a concise and helpful support assistant. Answer using clear and friendly language."
+  },
+  "experiment": {
+    "name": "Support Assistant Baseline",
+    "model_name": "gpt-4.1-mini"
+  }
+}
