@@ -42,16 +42,16 @@ High-level request flow:
 
 ## Repository Structure
 
-- [backend/app/main.py](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/app/main.py): FastAPI entrypoint
-- [backend/app/api](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/app/api): route modules and API wiring
-- [backend/app/crud](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/app/crud): database interaction logic
-- [backend/app/models](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/app/models): SQLAlchemy models
-- [backend/app/schemas](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/app/schemas): request and response schemas
-- [backend/alembic](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/alembic): migration setup
-- [frontend/app](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/frontend/app): Next.js routes
-- [frontend/components](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/frontend/components): interview-friendly UI components
-- [frontend/lib/api.ts](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/frontend/lib/api.ts): frontend API client
-- [backend/sample_data/sample_eval_dataset.json](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/sample_data/sample_eval_dataset.json): sample data for demos
+- `backend/app/main.py`: FastAPI entrypoint
+- `backend/app/api`: route modules and API wiring
+- `backend/app/crud`: database interaction logic
+- `backend/app/models`: SQLAlchemy models
+- `backend/app/schemas`: request and response schemas
+- `backend/alembic`: migration setup
+- `frontend/app`: Next.js routes
+- `frontend/components`: interview-friendly UI components
+- `frontend/lib/api.ts`: frontend API client
+- `backend/sample_data/sample_eval_dataset.json`: sample data for demos
 
 ## Setup
 
@@ -96,7 +96,7 @@ uvicorn app.main:app --app-dir backend --reload
 
 ### 2. Optional sample seed data
 
-The repository includes a small demo dataset in [backend/sample_data/sample_eval_dataset.json](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/backend/sample_data/sample_eval_dataset.json).
+The repository includes a small demo dataset in `backend/sample_data/sample_eval_dataset.json`.
 
 Seed it into the local database with:
 
@@ -125,7 +125,7 @@ Open `http://localhost:3000`.
 
 ## Local Development Commands
 
-A simple [Makefile](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/Makefile) is included for common tasks:
+A simple `Makefile` is included for common tasks:
 
 ```bash
 make backend-install
@@ -208,7 +208,7 @@ The evaluation rule is intentionally simple and interview-friendly:
 
 ## Screenshots
 
-Add screenshots to [docs/screenshots](/c:/Users/arda_/Desktop/Yazılım/python/ai-portfolio/01-eval-platform/docs/screenshots) and replace the placeholders below when you are ready:
+Add screenshots to `docs/screenshots` and replace the placeholders below when you are ready:
 
 ![Dashboard Placeholder](docs/screenshots/dashboard-placeholder.png)
 ![Datasets Placeholder](docs/screenshots/datasets-placeholder.png)
